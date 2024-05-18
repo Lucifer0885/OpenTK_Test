@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CircleWithOpenTK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3306153fd13a3936f1ab3bbc42876ed1cd3804b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CircleWithOpenTK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CircleWithOpenTK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,6 +2,7 @@
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
+using OpenTK.Windowing.GraphicsLibraryFramework;
 using System;
 
 namespace Circle
@@ -57,6 +58,15 @@ namespace Circle
             Context.SwapBuffers();
         }
 
+        protected override void OnUpdateFrame(FrameEventArgs args)
+        {
+            base.OnUpdateFrame(args);
+            if (KeyboardState.IsKeyDown(Keys.Escape))
+            {
+                Close();
+            }
+        }
+
         protected override void OnUnload()
         {
             base.OnUnload();
@@ -66,7 +76,7 @@ namespace Circle
             _shader.Dispose();
         }
 
-        private float[] GenerateCircleVertices(int segments)
+        private static float[] GenerateCircleVertices(int segments)
         {
             float[] vertices = new float[segments * 2];
             float angleStep = MathF.PI * 2.0f / segments;
@@ -74,8 +84,8 @@ namespace Circle
             for (int i = 0; i < segments; i++)
             {
                 float angle = i * angleStep;
-                vertices[i * 2] = MathF.Cos(angle); // X
-                vertices[i * 2 + 1] = MathF.Sin(angle); // Y
+                vertices[i * 2] = MathF.Cos(angle);
+                vertices[i * 2 + 1] = MathF.Sin(angle);
             }
 
             return vertices;

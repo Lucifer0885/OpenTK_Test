@@ -29,3 +29,4 @@ D:\CSharp\OpenTk\CircleWithOpenTK\CircleWithOpenTK\obj\Debug\net8.0\CircleWithOp
 D:\CSharp\OpenTk\CircleWithOpenTK\CircleWithOpenTK\obj\Debug\net8.0\CircleWithOpenTK.genruntimeconfig.cache
 D:\CSharp\OpenTk\CircleWithOpenTK\CircleWithOpenTK\obj\Debug\net8.0\ref\CircleWithOpenTK.dll
 D:\CSharp\OpenTk\CircleWithOpenTK\CircleWithOpenTK\obj\Debug\net8.0\CircleWi.81E65CC4.Up2Date
+D:\CSharp\OpenTk\CircleWithOpenTK\CircleWithOpenTK\obj\Debug\net8.0\CircleWithOpenTK.sourcelink.json
